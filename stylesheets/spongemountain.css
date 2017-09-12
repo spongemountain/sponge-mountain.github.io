@@ -1,0 +1,176 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #000;
+	background: #fff url(../images/background.png) repeat-x;
+	margin: 20px;
+}
+
+a {
+	color: #2285d2;
+	text-decoration: none;
+}
+
+div#container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	clear: both;
+	border: 1px solid #000;
+	overflow: auto;
+}
+
+div#container div#header {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 960px;
+	height: 144px;
+	overflow: hidden;
+	background-image: url(../images/heading-background.jpg);
+}
+
+div#container div#header h1 {
+	position: absolute;
+	width: 256px;
+	height: 92px;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	text-indent: -9999px;
+	top: 20px;
+	left: 60px;
+	background-image: url(../images/heading-graphics.png);
+	cursor: pointer;
+}
+
+div#container div#header h2 {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 374px;
+	height: 40px;
+	text-decoration: none;
+	text-indent: -9999px;
+	top: 50px;
+	left: 475px;
+	background: url(../images/heading-graphics.png) -265px 0px;
+}
+
+div#container div#header ul#nav {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 364px;
+	height: 25px;
+	list-style: none;
+	text-decoration: none;
+	text-indent: -9999px;
+	top: 95px;
+	left: 471px;
+	overflow: hidden;
+}
+
+div#container div#header ul#nav li {
+	display: inline;
+	position: relative;
+}
+
+div#container div#header ul#nav a {
+	display: block;
+	float: left;
+	height: 25px;
+	text-decoration: none;
+	background: url(../images/heading-graphics.png) -261px -45px;
+}
+
+div#container div#header ul#nav a#nav-wakeboards {
+	width: 90px;
+	background-position: -261px -45px;
+}
+
+div#container div#header ul#nav a#nav-wakeboards:hover,
+div#container div#header ul#nav a#nav-wakeboards:focus {
+	background-position: -261px -65px;
+}
+
+div#container div#header ul#nav a#nav-print {
+	width: 42px;
+	background-position: -351px -45px;
+}
+
+div#container div#header ul#nav a#nav-print:hover,
+div#container div#header ul#nav a#nav-print:focus {
+	background-position: -351px -65px;
+}
+
+div#container div#header ul#nav a#nav-illustration {
+	width: 122px;
+	background-position: -393px -45px;
+}
+
+div#container div#header ul#nav a#nav-illustration:hover,
+div#container div#header ul#nav a#nav-illustration:focus {
+	background-position: -393px -65px;
+}
+
+div#container div#header ul#nav a#nav-logos {
+	width: 50px;
+	background-position: -515px -45px;
+}
+
+div#container div#header ul#nav a#nav-logos:hover,
+div#container div#header ul#nav a#nav-logos:focus {
+	background-position: -515px -65px;
+}
+
+div#container div#header ul#nav a#nav-contact {
+	width: 60px;
+	background-position: -565px -45px;
+}
+
+div#container div#header ul#nav a#nav-contact:hover,
+div#container div#header ul#nav a#nav-contact:focus {
+	background-position: -565px -65px;
+}
+
+div#container div#main {
+	background-color: #fff;
+	color: #000;
+	min-height: 510px;
+}
+
+div#container div#main div#contact {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+div#container div#main div#contact h1 {
+	text-transform: uppercase;
+	font-family: "Helvetica CY", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#container div#main div#contact em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+div#container div#main div#contact strong {
+	text-transform: uppercase;
+}
+
+div#container div#main div#contact strong a {
+	color: #ad9124;
+	font: bold large "Helvetica CY", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#container div#main ul.gallery {
+	left: 200px;
+}
+
+div#container div#footer {
+	display: none;
+	clear: both;
+	padding-top: 8px;
+	text-align: center;
+}

@@ -1,0 +1,61 @@
+.galleria {
+	width: 840px;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+.galleria ul {
+	list-style: none;
+}
+
+.galleria li {
+	display: block;
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	float: left;
+	margin: 0 2px;
+}
+
+.galleria li a {
+	display: none
+}
+
+.galleria li div {
+	position: absolute;
+	display: none;
+	top: 0;
+/
+
+*left: 180px*/
+}
+
+.galleria li div img {
+	cursor: pointer
+}
+
+.galleria li.active div img,.galleria li.active div {
+	display: block
+}
+
+.galleria li img.thumb {
+	cursor: pointer;
+	top: auto;
+	left: auto;
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+span.caption {
+	display: block;
+	margin-left: 60px;
+	font-variant: small-caps;
+	font-size: small;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+* html .galleria li div span {
+	width: 960px
+}
